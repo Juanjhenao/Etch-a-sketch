@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    height: 0;
+    background: #e3e3e3;
+}
+.title{
+    text-align: center;
+    margin: 2em;
+    margin-top: 1em;
+
+}
+.container{
+    margin: auto; 
+    margin-top: 3em;
+    height: 512px;
+    width: 512px;
+    background-color: aquamarine;
+    display: flex;
+    flex-flow: column wrap; 
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    box-shadow:  20px 20px 60px #c1c1c1,
+             -20px -20px 60px #ffffff;
+}
+.pixel{
+    height: 32px;
+    width: 32px;
+    background-color: white;    
+}
+.pixel:hover{
+    cursor: cell;
+}
+.black{
+    background-color: black;
+}
