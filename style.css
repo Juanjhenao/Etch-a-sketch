@@ -7,30 +7,34 @@
     text-align: center;
     margin: 2em;
     margin-top: 1em;
-
+}
+#pixelSize{
+    text-align: center;
+    margin: 1em;
+}
+#slider{
+    height: 3em;
+    text-align: center;
+    margin-left: 45%;
 }
 .container{
     margin: auto; 
     margin-top: 3em;
-    height: 512px;
-    width: 512px;
-    background-color: aquamarine;
-    display: flex;
-    flex-flow: column wrap; 
+    height: 500px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
     justify-content: space-between;
     margin-bottom: 1rem;
-    border-radius: 15px;
     box-shadow:  20px 20px 60px #c1c1c1,
              -20px -20px 60px #ffffff;
 }
 .pixel{
-    height: 32px;
-    width: 32px;
+    height: auto;
+    width: auto;
     background-color: white;    
 }
-.pixel:hover{
-    cursor: cell;
-}
 .black{
-    background-color: black;
+    background-color: rgb(26, 26, 26);
 }
